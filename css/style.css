@@ -73,6 +73,7 @@ a {
 }
 
 .title-box a, h2 a {
+    color: inherit;
     text-decoration: none;
 }
 
