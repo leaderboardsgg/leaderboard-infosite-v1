@@ -1,0 +1,86 @@
+@font-face {
+    font-family: "Jost";
+    src: url("../assets/fonts/Jost.ttf");
+}
+
+@font-face {
+    font-family: "MuseoModerno";
+    src: url("../assets/fonts/MuseoModerno.ttf");
+}
+
+:root {
+    --color-text-primary: #608D99;
+    --color-text-secondary: #4D4D61;
+    --color-text-link: #306662;
+    --color-background-primary: #DFE7ED;
+    --color-background-secondary: #95A6ED;
+    --color-background-tertiary: #EDEEFC;
+}
+
+body {
+    background-color: var(--color-background-primary);
+    color: var(--color-text-secondary);
+    font-family: 'Jost', sans-serif;
+    font-weight: 300;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 10vmin;
+    max-width: min(98%, 55em);
+    overflow-wrap: break-word;
+    overflow-y: scroll;
+}
+
+h1 {
+    font-size: 4em;
+    font-weight: 700;
+    display: inline-block;
+}
+
+h2 {
+    font-size: 2.25em;
+    font-weight: 400;
+    margin-bottom: -1em;
+}
+
+h1, h2 {
+    font-family: 'MuseoModerno', sans-serif;
+    color: var(--color-text-primary);
+}
+
+p, ol, ul, li {
+    font-size: 1.8em;
+    line-height: 2.5em;
+}
+
+footer {
+    font-weight: 400;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+*::-moz-selection {
+    background: var(--color-background-secondary);
+    color: var(--color-text-secondary);
+}
+
+li {
+    margin-bottom: 0.5em;
+}
+
+a {
+    color: var(--color-text-link);
+    text-decoration-style: solid;
+}
+
+.title-box a, h2 a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.title-box {
+    text-align: center;
+    margin-bottom: -1em;
+}
