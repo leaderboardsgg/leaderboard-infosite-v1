@@ -39,7 +39,7 @@ h1 {
 h2 {
     font-size: 2.25em;
     font-weight: 400;
-    margin-bottom: -1em;
+    margin-bottom: -0.8em;
 }
 
 h1, h2 {
@@ -49,7 +49,7 @@ h1, h2 {
 
 p, ol, ul, li {
     font-size: 1.8em;
-    line-height: 2.5em;
+    line-height: 1.3em;
 }
 
 footer {
