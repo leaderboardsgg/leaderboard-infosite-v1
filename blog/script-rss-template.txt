@@ -1,0 +1,8 @@
+        <item>
+            <title>tk_title</title>
+            <link>tk_link</link>
+            <description>tk_description</description>
+            <guid isPermaLink="true">tk_link</guid>
+            <pubDate>tk_pubdate</pubDate>
+            <source url="https://blog.speedrun.infosite/feed.xml">Speedrun.Website | Blog</source>
+        </item>
