@@ -1,0 +1,17 @@
+/* ./assets/css/tailwind.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Blog Styling */
+.tag-front-end {
+  @apply bg-blue-700;
+}
+
+.tag-back-end {
+  @apply bg-red-700;
+}
+
+.tag-update {
+  @apply bg-green-800;
+}
